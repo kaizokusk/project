@@ -66,3 +66,18 @@ $ cp EleGun_HF_AODSIM.root ../HFEleStudy/hfe/test/
 $ cd ../HFEleStudy/hfe/test/
 $ cmsRun  ZEE_RecHit_AOD_cfg.py
 ```
+
+#### 8. Crab file for GEN_SIM step (default = pythia, change pset parameter if flatgun is needed ).Also crab files are working only in cmssw-el7 (singularity)
+
+```bash
+$ cmssw-el7
+$ cmsRun  MC_gen_crab.py
+```
+
+
+#### 8. Crab file for ZEE_RECHIT_AOD_cfg.py is Crab_config.py
+
+```bash
+$ cmssw-el7
+$ cmsRun  Crab_config.py
+```

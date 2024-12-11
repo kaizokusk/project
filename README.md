@@ -81,3 +81,6 @@ $ cmsRun  MC_gen_crab.py
 $ cmssw-el7
 $ cmsRun  Crab_config.py
 ```
+
+#### 9. there are 2 plugin files (one with dressed ele adn other without it) inside HFEleStudy/hfe/plugins . use the one according to your need.
+
